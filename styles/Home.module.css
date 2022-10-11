@@ -1,0 +1,58 @@
+.container {
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+}
+.buttonContainer {
+  margin-bottom: 3rem;
+}
+.buttonContainer a {
+  padding: 1rem;
+  background: #484848;
+  color: white;
+  border-radius: 0.5rem;
+}
+.buttonContainer a:hover {
+  background: #272727;
+}
+.left {
+  width: 40%;
+}
+.right {
+  width: 40%;
+  margin-left: 2rem;
+}
+.card {
+  position: relative;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 3%);
+  border: 1px solid whitesmoke;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.number {
+  position: absolute;
+  left: -1rem;
+  top: -1rem;
+  background: #484848;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: white;
+}
+
+.fixedCard {
+  width: 40%;
+  height: auto;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 3%);
+  border: 1px solid whitesmoke;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  position: fixed;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 10%);
+}
